@@ -1,0 +1,8 @@
+import I{{pascalCase name}}Props from './types';
+import { Container } from './styles';
+
+const {{pascalCase name}} = ({ children, style, className }: I{{pascalCase name}}Props) => {
+  return <Container {...{ style, className }}>{children}</Container>;
+};
+
+export default {{pascalCase name}};
